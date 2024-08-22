@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Information - Explore the World</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .destination {
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        .destination img {
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .fact-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .fact-list li {
+            margin-bottom: 10px;
+        }
+        .fact-list i {
+            margin-right: 10px;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a href="https://mitsgwalior.in/"><img src="mits-logo.png" width="50px" height="50px"></a>
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Explore the World</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Destinations</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-dark text-white text-center py-5">
+        <h1 class="display-4">Tourism Information</h1>
+        <p class="lead">Get detailed insights about your favorite destinations.</p>
+    </header>
+
+    <div class="container mt-5">
+        <div id="paris" class="destination">
+            <h2 class="text-primary mb-4">Paris, France</h2>
+            <img src="https://c4.wallpaperflare.com/wallpaper/313/933/99/sunset-the-city-france-paris-wallpaper-preview.jpg" width="100%" alt="Paris" class="img-fluid mb-4">
+            <p><strong>Paris</strong>, the capital of France, is known for its iconic landmarks like the <em>Eiffel Tower</em> and the <em>Louvre Museum</em>. It's a hub for art, culture, and fashion, attracting millions of visitors every year.</p>
+            <h4 class="mt-4">Quick Facts</h4>
+            <ul class="fact-list">
+                <li><i class="fas fa-users"></i> Population: 2.2 million</li>
+                <li><i class="fas fa-language"></i> Language: French</li>
+                <li><i class="fas fa-coins"></i> Currency: Euro (€)</li>
+                <li><i class="fas fa-plane"></i> Main Airport: Charles de Gaulle Airport</li>
+            </ul>
+            <h4 class="mt-4">Top Attractions</h4>
+            <ol>
+                <li>Eiffel Tower</li>
+                <li>Louvre Museum</li>
+                <li>Notre-Dame Cathedral</li>
+                <li>Champs-Élysées</li>
+                <li>Palace of Versailles</li>
+            </ol>
+            <a href="index.html" class="btn btn-primary mt-3">Back to Overview</a>
+        </div>
+
+        <div id="kyoto" class="destination">
+            <h2 class="text-primary mb-4">Kyoto, Japan</h2>
+            <img src="https://img.freepik.com/free-photo/asian-woman-wearing-japanese-traditional-kimono-yasaka-pagoda-sannen-zaka-street-kyoto-japan_335224-42.jpg"width="100%" alt="Kyoto" class="img-fluid mb-4">
+            <p><strong>Kyoto</strong> is famous for its classical Buddhist temples, as well as beautiful gardens, Shinto shrines, and traditional wooden houses. It's a place where history and nature meet in perfect harmony.</p>
+            <h4 class="mt-4">Quick Facts</h4>
+            <ul class="fact-list">
+                <li><i class="fas fa-users"></i> Population: 1.5 million</li>
+                <li><i class="fas fa-language"></i> Language: Japanese</li>
+                <li><i class="fas fa-coins"></i> Currency: Japanese Yen (¥)</li>
+                <li><i class="fas fa-train"></i> Main Station: Kyoto Station</li>
+            </ul>
+            <h4 class="mt-4">Top Attractions</h4>
+            <ol>
+                <li>Kinkaku-ji (Golden Pavilion)</li>
+                <li>Fushimi Inari Shrine</li>
+                <li>Arashiyama Bamboo Grove</li>
+                <li>Kiyomizu-dera Temple</li>
+                <li>Nijo Castle</li>
+            </ol>
+            <a href="index.html" class="btn btn-primary mt-3">Back to Overview</a>
+        </div>
+
+        <div id="ny" class="destination">
+            <h2 class="text-primary mb-4">New York, USA</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMWvWLJ90rNsRNPkOpVmz9MAVCPbV6K5wXDQ&s" width="100%" alt="New York" class="img-fluid mb-4">
+            <p><strong>New York City</strong>, also known as "The Big Apple," is a global center for culture, art, finance, and entertainment. Landmarks like Times Square, Central Park, and the Statue of Liberty are must-see attractions.</p>
+            <h4 class="mt-4">Quick Facts</h4>
+            <ul class="fact-list">
+                <li><i class="fas fa-users"></i> Population: 8.4 million</li>
+                <li><i class="fas fa-language"></i> Language: English</li>
+                <li><i class="fas fa-coins"></i> Currency: US Dollar ($)</li>
+                <li><i class="fas fa-plane"></i> Main Airports: JFK, LaGuardia, Newark</li>
+            </ul>
+            <h4 class="mt-4">Top Attractions</h4>
+            <ol>
+                <li>Statue of Liberty</li>
+                <li>Central Park</li>
+                <li>Empire State Building</li>
+                <li>Times Square</li>
+                <li>Metropolitan Museum of Art</li>
+            </ol>
+            <a href="index.html" class="btn btn-primary mt-3">Back to Overview</a>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>Explore the World is dedicated to providing unforgettable travel experiences.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="#" class="text-white">Destinations</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <a href="#" class="text-white mr-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white mr-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white mr-2"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <hr>
+            <p>&copy; 2024 Explore the World. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

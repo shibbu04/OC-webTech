@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Explore the World</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .profile-image {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #fff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        .about-section {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin-top: 50px;
+        }
+        .social-icons a {
+            font-size: 24px;
+            margin: 0 10px;
+            color: #007bff;
+            transition: color 0.3s;
+        }
+        .social-icons a:hover {
+            color: #0056b3;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            transition: all 0.3s;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a href="https://mitsgwalior.in/"><img src="mits-logo.png" width="50px" height="50px"></a>
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Explore the World</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-5">
+        <h1 class="display-4">About Us</h1>
+        <p class="lead">Get to know the team behind Explore the World</p>
+    </header>
+
+    <div class="container">
+        <div class="about-section">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="4-modified.png" class="profile-image mb-4" alt="Shivam Singh">
+                    <div class="social-icons">
+                        <a href="https://github.com/shibbu04/" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/shivamsingh57680/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://shivam04.tech" target="_blank"><i class="fas fa-globe"></i></a>
+                        <a href="mailto:shivamsingh7680@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <h2 class="text-primary">Shivam Singh - Developer</h2>
+                    <p>Hi, I'm Shivam Singh, the developer behind the "Explore the World" website. I'm a passionate full-stack web developer with a deep interest in creating engaging and user-friendly web applications. With expertise in various programming languages and technologies, I focus on delivering high-quality, responsive, and interactive web solutions.</p>
+                    <p>My journey in web development started with a curiosity to understand how websites function and has grown into a full-fledged passion for coding, problem-solving, and continuously learning new skills. I thrive on challenges and enjoy working on projects that push the boundaries of my knowledge.</p>
+                    <p>In this project, I aimed to create a platform that not only showcases beautiful destinations but also provides an intuitive and enjoyable experience for users. My goal is to continue building innovative solutions that make a positive impact on users and businesses alike.</p>
+                    <a href="index.html" class="btn btn-primary mt-3">Back to Home</a>
+                    <a href="https://shivam04.tech" class="btn btn-outline-primary mt-3 ml-2">View Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p>&copy; 2024 Explore the World. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
